@@ -1,0 +1,19 @@
+{
+  "name": "webpack-file-dependencies-issue",
+  "version": "0.0.1",
+  "private": true,
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MikeDevice/webpack-file-dependencies-issue.git"
+  },
+  "author": "Mikhail Vyrodov",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/MikeDevice/webpack-file-dependencies-issue/issues"
+  },
+  "homepage": "https://github.com/MikeDevice/webpack-file-dependencies-issue#readme",
+  "devDependencies": {
+    "webpack": "^5.4.0",
+    "webpack-cli": "^4.2.0"
+  }
+}
