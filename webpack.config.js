@@ -1,15 +1,5 @@
-class Plugin {
-  apply(compiler) {
-    compiler.hooks.emit.tapAsync('Plugin', (compilation, callback) => {
-      console.log();
-      console.log(Array.from(compilation.fileDependencies));
-      console.log();
-
-      callback();
-    });
-  }
-}
+const LicenseCheckerWebpackPlugin = require("license-checker-webpack-plugin");
 
 module.exports = {
-  plugins: [new Plugin()]
+  plugins: [new LicenseCheckerWebpackPlugin()]
 };

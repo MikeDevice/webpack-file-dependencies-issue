@@ -13,7 +13,12 @@
   },
   "homepage": "https://github.com/MikeDevice/webpack-file-dependencies-issue#readme",
   "devDependencies": {
+    "glob": "^7.1.6",
+    "license-checker-webpack-plugin": "^0.1.5",
     "webpack": "^5.4.0",
     "webpack-cli": "^4.2.0"
+  },
+  "dependencies": {
+    "@babel/runtime": "^7.12.5"
   }
 }
